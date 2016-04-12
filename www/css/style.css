@@ -1,0 +1,22 @@
+/* Empty. Add your own CSS if you like */
+img.logo {
+    -webkit-user-drag: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+img.profpic{
+  border-radius: 50%;
+border: 1px solid #cccfd0;
+}
+h1, .h1 {
+    font-size: 40px;
+    margin-left: 98px;
+}
+p.name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

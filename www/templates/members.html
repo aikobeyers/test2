@@ -1,0 +1,10 @@
+<ion-view view-title="A Creative Visual Members">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="member in members" href="#/app/members/{{member.name}}">
+        <p><b>{{member.name}}</b></p>
+        <p>{{member.function}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
